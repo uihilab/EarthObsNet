@@ -44,5 +44,12 @@ Band 11 - SAR image captured 12 days before the target date. <br/>
 
 If needed, users can generate customized sub-datasets with different thresholds for open water areas using the complete dataset for each image ID. 
 
+# Feedback
+Please do not hesitate to reach out to us ([zhouyayan-li@uiowa.edu](mailto:zhouyayan-li@uiowa.edu)) about any issues regarding the dataset, code, or methodology.
 
+# References
+* Li, Z., & Demir, I. (2024). Better localized predictions with Out-of-Scope information and Explainable AI: One-Shot SAR backscatter nowcast framework with data from neighboring region. ISPRS Journal of Photogrammetry and Remote Sensing, 207, 92–103. https://doi.org/10.1016/J.ISPRSJPRS.2023.11.021
+
+* Li, Z., Xiang, Z., Demiray, B. Z., Sit, M., & Demir, I. (2023). MA-SARNet: A one-shot nowcasting framework for SAR image prediction with physical driving forces. ISPRS Journal of Photogrammetry and Remote Sensing, 205, 176–190. https://doi.org/10.1016/J.ISPRSJPRS.2023.10.002
+ 
 
