@@ -24,6 +24,9 @@ The dataset is organized following the 34 SAR images' IDs (identified by the fou
 #### In addition to the core dataset for each image ID, our dataset allows users to generate custom sub-datasets.
 Suppose you want to customize neighboring patches (i.e., less or more than 5-hop) and apply a new data aggregation approach for those neighboring patches. In that case, you can do so using the complete dataset with any specific ID without **_core__** in the file name. Note that the complete dataset for each image ID is large and may contain 2 to 3 separate zip files. For instance, AC44.z01, AC44.z02, and AC44.zip are different parts of the complete dataset of the AC44 image. Inside each zip file, you will find image patches (inside the _slicing_ folder) and the corresponding DEM files (inside the _slicing_DEM_folder).  
 
+#### CSV files documenting the train-test split for each research activity described above are in the train-test-split folder.
+Specifically, the train and test files for the semantic segmentation and the independent localized approach are the _train_cor.csv_ and _test_cor.csv_, respectively. Here, __cor_ refers to files in the core folders we discussed in the previous section. The four files starting with _robustTest_ can be used for independent tests to investigate the generalization of models. Image patches and the neighboring information used in S0, SA, and SS are listed in _train.csv/trainOutside.csv_ and _test.csv/testOutside.csv_, where items in the __Outside.csv_ contain the neighboring information.   
+
 #### Note
 * Band sequence for image patches (those inside both the _slicing_ folder of the complete dataset and the _Tr_p10_ folder of the core dataset for each image ID):<br/>
 Band 1 - target SAR image. <br/>
