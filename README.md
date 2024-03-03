@@ -47,8 +47,15 @@ Band 11 - SAR image captured 12 days before the target date. <br/>
 
 If needed, users can generate customized sub-datasets with different thresholds for open water areas using the complete dataset for each image ID. 
 
-# Feedback
-Please do not hesitate to reach out to us ([zhouyayan-li@uiowa.edu](mailto:zhouyayan-li@uiowa.edu)) about any issues regarding the dataset, code, or methodology.
+## Feedback
+Feel free to send us feedback by filing an issue.
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgements
+This project is developed by the University of Iowa Hydroinformatics Lab (UIHI Lab):  
+https://hydroinformatics.uiowa.edu/
 
 # References
 * Li, Z., & Demir, I. (2024). Better localized predictions with Out-of-Scope information and Explainable AI: One-Shot SAR backscatter nowcast framework with data from neighboring region. ISPRS Journal of Photogrammetry and Remote Sensing, 207, 92–103. https://doi.org/10.1016/J.ISPRSJPRS.2023.11.021
